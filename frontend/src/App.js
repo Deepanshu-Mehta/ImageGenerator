@@ -8,7 +8,7 @@ function App() {
   const [image, setImage] = useState(null);
   const [error, setError] = useState('');
 
-  const invokeUrl = 'http://localhost:3001/generate-our-image-brotha';
+  const invokeUrl = 'https://imagegenerator-w0r9.onrender.com/generate-our-image-brotha';
 
   const generateImage = async () => {
     if (!text.trim()) {
